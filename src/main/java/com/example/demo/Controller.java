@@ -18,9 +18,9 @@ public class Controller {
     Logger logger = LoggerFactory.getLogger(Controller.class);
 
     private final List<Quiz> quizzes = new ArrayList<>();
-    public record Dto (@NotBlank String title, @NotBlank String text, @NotNull @Size(min=2) List<String> options, List<Integer> answer){};
+    public record Dto (@NotBlank String title, @NotBlank String text, @NotNull @Size(min=2) List<String> options, List<Integer> answer){}
 
-    public record Answer (List<Integer> answer){};
+    public record Answer (List<Integer> answer){}
 
     public static final String addQuiz = "/api/quizzes";
 
