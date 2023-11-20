@@ -20,7 +20,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation "org.springframework.boot:spring-boot-starter-validation"
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation group: 'org.hibernate', name: 'hibernate-validator', version: '6.1.0.Final'
+	implementation 'com.h2database:h2'
 }
 
 tasks.named('test') {

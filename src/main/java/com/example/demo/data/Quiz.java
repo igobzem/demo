@@ -5,10 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.List;
 
 public class Quiz {
+    @JsonIgnore
     long id;
 
     private String title;
     private String text;
+    @JsonIgnore
     private List<String> options;
 
     @JsonIgnore
