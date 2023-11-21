@@ -1,6 +1,5 @@
 package com.example.demo.services;
 
-import com.example.demo.Controller;
 import com.example.demo.data.User;
 import com.example.demo.data.UserDetailsImpl;
 import org.slf4j.Logger;
